@@ -1,31 +1,37 @@
-/* main content */
-
-
-.lan_txt {
-   position: absolute;
-  width: 583px;
-  height: 418px;
-  left: 1803px;
-  top: 271px;
+.html{
+  height: 100%;
+  margin: 0px;
 }
 
+ .body{
+   height: 100%;
+   margin: 0px;
+ }
 
-/* background */
-
-
-.back_lan { position: absolute;
+  .back_lan {
+  position: absolute;
   width: 1700px;
-  height: 1078px;
+  height: 99.8%;
   left: 0px;
   top: 2px;
-  background: linear-gradient(180deg, rgba(71, 41, 196, 0.25) 0%, rgba(45, 173, 103, 0.16) 100%, rgba(45, 173, 103, 0.16) 100%), url(administration-articles-bank-261949.jpg);
   z-index: 50;
+  background-size: cover;
+  object-fit: cover;
 }
 
-/* navi */
+.back{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+  background-image: linear-gradient(180deg, rgba(71, 41, 196, 0.25) 0%, rgba(45, 173, 103, 0.16) 100%), url('administration-articles-bank-261949.jpg');
+  width: 967px;
+  height: 100%;
+}
+/* <navi> */
 
 
 .navi {
+  color: white;
   position: fixed;
   width: 100%;
   height: 127px;
@@ -33,8 +39,18 @@
   top: 0px;
   box-shadow: 5px 9px 45px rgba(0, 0, 0, 0.25);
   z-index: 100;
-
 }
+
+.rec_navi {
+  position: absolute;
+  width: 2573px;
+  height: 127px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+
 .logo {
   position: absolute;
   width: 124px;
@@ -60,3 +76,43 @@
   line-height: 54px;
   z-index: 90;
 }
+
+
+.abt_navi{position: absolute;
+  width: 160px;
+  height: 54px;
+  left: 883px;
+  top: 43px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  align-items: center;
+  display: flex;
+  color: #000000;
+}
+
+
+.lt_art_navi{position: absolute;
+  width: 249px;
+  height: 54px;
+  left: 585px;
+  top: 43px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+
+
+
+
+
+
+/* </navi> */
