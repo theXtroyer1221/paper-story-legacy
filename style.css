@@ -10,7 +10,7 @@
 
 .back_lan {
   position: absolute;
-  width: 1700px;
+  width: 66.4%;
   height: 99.8%;
   left: 0px;
   top: 2px;
@@ -113,8 +113,8 @@
 .title_index {
   position: absolute;
   width: 553px;
-  height: 120px;
-  left: 1803px;
+  height: 10px;
+  left: 70.45%;
   top: 271px;
 
   font-family: Poppins;
@@ -133,11 +133,11 @@
 .sub_title_index {
   position: absolute;
   width: 583px;
-  height: 125px;
-  left: 1803px;
+  height: 100px;
+  left: 70.45%;
   top: 415px;
 
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -151,7 +151,7 @@
   position: absolute;
   width: 196px;
   height: 88px;
-  left: 1803px;
+  left: 70.45%;
   top: 601px;
 
   background: #2dad67;
