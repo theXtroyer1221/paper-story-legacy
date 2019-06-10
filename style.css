@@ -8,6 +8,10 @@
   margin: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .back_lan {
   position: absolute;
   width: 66.4%;
@@ -175,4 +179,24 @@
   align-items: center;
   text-decoration: none;
   color: white;
+}
+
+.home_index {
+position: absolute;
+width: 108px;
+height: 54px;
+left: 429px;
+top: 43px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 54px;
+
+
+display: flex;
+align-items: center;
+
+color: #000000;
 }
