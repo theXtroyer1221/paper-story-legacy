@@ -9,32 +9,29 @@
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .back_lan {
-  position: absolute;
-  width: 66.4%;
-  height: 99.8%;
-  left: 0px;
-  top: 2px;
-  z-index: 50;
-  background-size: cover;
-  object-fit: cover;
+
 }
 
 .back {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: absolute;
-  background-image: linear-gradient(
+  background: linear-gradient(
       180deg,
-      rgba(71, 41, 196, 0.25) 0%,
+      rgba(41, 58, 196, 0.25) 0%,
+      rgba(45, 173, 103, 0.16) 100%,
       rgba(45, 173, 103, 0.16) 100%
     ),
-    url("administration-articles-bank-261949.jpg");
-  width: 967px;
-  height: 100%;
+    url(administration-articles-bank-261949.jpg);
+  position: relative;
+  width: 66.4%;
+  height: 99.8%;
+  left: 0px;
+  top: 2px;
+  z-index: 50;
 }
 /* <navi> */
 
@@ -59,10 +56,10 @@ a {
 }
 
 .logo {
-  position: absolute;
+  position: relative;
   width: 124px;
   height: 124px;
-  left: 215px;
+  left: 8.4%;
   top: 2px;
   background: url(Frame 3png);
   z-index: 100;
@@ -80,7 +77,7 @@ a {
   font-size: 36px;
   line-height: 54px;
   z-index: 90;
-  color: black;
+  color: #2f303a;
 }
 
 .abt_navi {
@@ -96,7 +93,7 @@ a {
   line-height: 54px;
   align-items: center;
   display: flex;
-  color: #000000;
+  color: #2f303a;
 }
 
 .latest_navi {
@@ -112,7 +109,7 @@ a {
   line-height: 54px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #2f303a;
 }
 
 .title_index {
@@ -158,6 +155,8 @@ a {
   height: 88px;
   left: 70.45%;
   top: 601px;
+  transition: background-color 1s ease;
+  background-color: #2dad67;
 
   background: #2dad67;
   border-radius: 15px;
@@ -183,21 +182,58 @@ a {
 }
 
 .home_index {
-position: absolute;
-width: 108px;
-height: 54px;
-left: 429px;
-top: 43px;
+  position: absolute;
+  width: 108px;
+  height: 54px;
+  left: 429px;
+  top: 43px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 54px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  color: #2f303a;
+}
 
+.insta_icn {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 276px;
+  top: 979px;
 
-display: flex;
-align-items: center;
+  background: url(iconmonstr-instagram-11-240.png);
+}
 
-color: #000000;
+.yout_icn {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  left: 368px;
+  top: 979px;
+
+  background: url(youtube.png);
+}
+
+.face_icn {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  left: 92px;
+  top: 979px;
+
+  background: url(iconmonstr-facebook-4-240.png);
+}
+
+.disc_icn {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  left: 460px;
+  top: 979px;
+
+  background: url(iconmonstr-discord-1-240.png);
 }
