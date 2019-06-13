@@ -1,22 +1,32 @@
 body {
   margin: 0;
-  background: linear-gradient(315deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
-   url('background-home.jpg') center / cover no-repeat fixed;
-   background-attachment: fixed;
+  background: linear-gradient(
+      315deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("background-home.jpg") center / cover no-repeat fixed;
+  background-attachment: fixed;
 }
 
 .container {
   background-color: #fff;
   padding: 15px 25px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.1em;
-  margin: 500px 0;
 }
+
+.transparent {
+  background-color: transparent;
+  color: #fff;
+  margin-top: 127px;
+}
+
 p {
-   margin: 0;
+  margin: 0;
 }
 
 .sub_title_home {
   color: #2f303a;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
