@@ -1,6 +1,7 @@
 .html {
   height: 100%;
   margin: 0px;
+  scroll-behavior: smooth;
 }
 
 .body {
@@ -155,7 +156,7 @@ a {
   height: 88px;
   left: 70.45%;
   top: 601px;
-  transition: background-color 1s ease;
+  transition: background-color 0.8s ease;
   background-color: #2dad67;
 
   background: #2dad67;
@@ -165,7 +166,7 @@ a {
 }
 
 .start_button:hover {
-  transition: background-color 1s ease;
+  transition: background-color 0.8s ease;
   background-color: #269458;
 }
 
