@@ -14,7 +14,8 @@ body {
   padding: 15px 25px;
   font-family: "Poppins", sans-serif;
   font-size: 1.1em;
-  margin: 500px 0;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 .transparent {
@@ -30,4 +31,14 @@ p {
 .sub_title_home {
   color: #2f303a;
   font-family: "Poppins", sans-serif;
+}
+
+#first {
+  margin-top: 127px;
+}
+
+.quote_img {
+  position: relative;
+  width: 1280px;
+  height: auto;
 }
