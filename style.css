@@ -37,6 +37,9 @@ a {
   left: 0px;
   top: 2px;
   z-index: 50;
+  position: absolute;
+  background-size: cover;
+  object-fit: cover;
 }
 /* <navi> */
 
