@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1920px) {
+  .back {
+    height: 100.8%;
+  }
+}
+
+@media only screen and (max-width: 1680px) {
+  .title_index {
+    position: absolute;
+    width: 553px;
+    height: 10px;
+    left: 64.45%;
+    top: 271px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 120px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #2f303a;
+  }
+
+  .sub_title_index {
+    left: 64.45%;
+  }
+
+  .start_button {
+    left: 64.45%;
+  }
+
+  .back {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(
+        180deg,
+        rgba(41, 58, 196, 0.25) 0%,
+        rgba(45, 173, 103, 0.16) 100%,
+        rgba(45, 173, 103, 0.16) 100%
+      ),
+      url(administration-articles-bank-261949.jpg);
+    position: relative;
+    width: 60.4%;
+    height: 99.8%;
+    left: 0px;
+    top: 2px;
+    z-index: 50;
+    position: absolute;
+    background-size: cover;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1205px) {
+  .back {
+    height: 99.8%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .back {
+    width: 141%;
+    height: 100
+  }
+
+  .title_index {
+    position: absolute;
+    text-align: center;
+  }
+  .sub_title_index {
+    text-align: center;
+  }
+  .start_button {
+    text-align: center;
+  }
+}
