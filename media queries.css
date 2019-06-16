@@ -59,9 +59,30 @@
   .back {
     height: 99.8%;
   }
+
+  .logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .home_index {
+    left: 150px;
+  }
+
+  .latest_navi {
+    left: 283px;
+  }
+
+  .abt_navi {
+    display: none;
+  }
+
+  .contact_navi {
+    left: 559px;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .back {
     width: 141%;
     height: 100
@@ -69,12 +90,22 @@
 
   .title_index {
     position: absolute;
-    text-align: center;
+    text-align: center !important;
   }
   .sub_title_index {
-    text-align: center;
+    text-align: center !important;
   }
   .start_button {
     text-align: center;
+  }
+
+  p {
+    text-align: center !important;
+  }
+
+  .center {
+    width: 100vw !important;
+    text-align: center !important;
+    border: 5px solid green;
   }
 }
