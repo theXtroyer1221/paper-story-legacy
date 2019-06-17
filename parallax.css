@@ -38,6 +38,12 @@ p {
   padding: 0;
 }
 
+.quote {
+  position: absolute;
+  top: 50px;
+
+}
+
 .quote_img {
   position: relative;
   top: 126px;
