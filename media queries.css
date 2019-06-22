@@ -92,6 +92,22 @@
     height: 500px;
     outline: none;
   }
+
+  footer ul {
+    margin-bottom: 0;
+ }
+
+ footer nav {
+    margin: auto;
+ }
+
+ footer p {
+    margin: 10px auto;
+    text-align: center;
+ }
+ footer img {
+   display: block;
+ }
 }
 
 @media screen and (max-width: 820px) {
@@ -121,6 +137,10 @@
     text-align: center !important;
   }
 
+  h1 {
+    text-align: center !important;
+  }
+
   .center1 {
     line-height: 200px;
     height: 200px;
@@ -131,4 +151,15 @@
   .quote_title {
     font-size: 20px;
   }
+}
+
+@media screen and (max-width: 575px) {
+  footer span {
+    display: block;
+  }
+
+  footer li {
+     display: block;
+  }
+
 }
