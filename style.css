@@ -272,9 +272,9 @@ a {
   width: 50%;
 }
 
-.title_abt {
+.-title_abt {
   position: relative;
-  left: 41.33%
+  left: 41.33%;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -294,7 +294,7 @@ a {
 
 .logo_abt {
   position: relative;
-  top: -80px;
+  top: -132px;
   left: 8.33%;
   width: 619px;
   height: 619px;
