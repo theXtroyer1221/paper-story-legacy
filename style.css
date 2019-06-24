@@ -289,7 +289,6 @@ a {
 }
 
 .sub_title_abt {
-
 }
 
 .logo_abt {
@@ -299,7 +298,7 @@ a {
   width: 619px;
   height: 619px;
 
-  border: 16px solid #2F303A;
+  border: 16px solid #2f303a;
   box-sizing: border-box;
   box-shadow: -16px 33px 45px rgba(0, 0, 0, 0.25);
 }
