@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .html {
   height: 100%;
   margin: 0px;
@@ -17,26 +21,24 @@ a {
   text-decoration: none;
 }
 
-.back_lan {
-
-}
-
 .back {
   background-repeat: no-repeat;
   background-size: cover;
   background: linear-gradient(
-      180deg,
-      rgba(41, 58, 196, 0.25) 0%,
-      rgba(45, 173, 103, 0.16) 100%,
-      rgba(45, 173, 103, 0.16) 100%
+      107deg,
+      rgba(41, 58, 196, 0.55) 0%,
+      rgba(45, 173, 103, 0.5634628851540616) 100%
     ),
-    url(administration-articles-bank-261949.jpg);
+    url(background-landing.jpg);
   position: relative;
   width: 66.4%;
   height: 99.8%;
   left: 0px;
   top: 2px;
   z-index: 50;
+  position: absolute;
+  background-size: cover;
+  object-fit: cover;
 }
 /* <navi> */
 
@@ -76,12 +78,14 @@ a {
   height: 54px;
   left: 1091px;
   top: 43px;
+
   font-style: normal;
   font-family: Poppins;
   font-weight: normal;
   font-size: 36px;
   line-height: 54px;
   z-index: 90;
+
   color: #2f303a;
   text-decoration: none;
 }
@@ -120,7 +124,10 @@ a {
   text-decoration: none;
 }
 
-.latest_navi:hover, .home_index:hover, .abt_navi:hover, .contact_navi:hover {
+.latest_navi:hover,
+.home_index:hover,
+.abt_navi:hover,
+.contact_navi:hover {
   color: #2f303a;
   text-decoration: none;
 }
@@ -256,4 +263,43 @@ a {
   top: 979px;
 
   background: url(iconmonstr-discord-1-240.png);
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.-title_abt {
+  position: relative;
+  left: 41.33%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 103px;
+  line-height: 154px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #2f303a;
+}
+
+.sub_title_abt {
+
+}
+
+.logo_abt {
+  position: relative;
+  top: -132px;
+  left: 8.33%;
+  width: 619px;
+  height: 619px;
+
+  border: 16px solid #2F303A;
+  box-sizing: border-box;
+  box-shadow: -16px 33px 45px rgba(0, 0, 0, 0.25);
 }

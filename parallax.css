@@ -14,13 +14,14 @@ body {
   padding: 15px 25px;
   font-family: "Poppins", sans-serif;
   font-size: 1.1em;
-  margin: 500px 0;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 .transparent {
   background-color: transparent;
   color: #fff;
-  margin-top: 127px;
+  margin-top: 0px;
 }
 
 p {
@@ -30,4 +31,121 @@ p {
 .sub_title_home {
   color: #2f303a;
   font-family: "Poppins", sans-serif;
+}
+
+#first {
+  margin-top: 0px;
+  padding: 0;
+}
+
+.quote_title {
+  text-align: center;
+  margin: 0;
+  background-color: #2f303a;
+}
+
+.quote_img {
+  position: relative;
+  top: 26px;
+  display: block;
+  margin-left: auto;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.subtitle_quote {
+  text-align: center;
+  margin: 0;
+  background-color: #2f303a;
+}
+
+.quote {
+  margin-top: -53px;
+  position: relative;
+  top: -150px;
+}
+
+.trends {
+  width: 100%;
+  height: 410px;
+}
+
+.spotify {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.document {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 500px;
+  outline: none;
+}
+
+#last {
+  margin-top: 200px;
+  padding: 0;
+}
+
+footer {
+  background-color: #fff;
+  padding: 25px 50px;
+  font-family: 'roboto', sans-serif;
+  letter-spacing: -0.2px;
+  color: #505050;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#credits {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #9E9E9E;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#footer-sub_text {
+  color: #9E9E9E;
+  transition: color 0.8s ease;
+  text-decoration: none;
+
+}
+
+#footer-sub_text:hover {
+  color: #2dad67;
+}
+
+footer span {
+  margin: 0 5px;
+}
+
+ul img {
+  margin: 0 10px;
+}
+
+#social-media {
+  text-decoration: none;
+  list-style-type: none;
 }
