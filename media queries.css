@@ -153,9 +153,15 @@
   }
 }
 
+@media screen and (max-width: 689px) {
+  footer li {
+    flex: 1 1 100%;
+  }
+}
+
 @media screen and (max-width: 575px) {
   footer span {
-    display: block;
+    display: none;
   }
 
   footer li {
