@@ -55,6 +55,20 @@
   }
 }
 
+@media screen and (max-width: 1366px) {
+  .sub_title_index{
+    left: 62%;
+    font-size: 34px;
+  }
+
+  .title_index{
+    left: 62%;
+  }
+
+  .start_button {
+    left: 62%;
+  }
+}
 @media screen and (max-width: 1205px) {
   .back {
     height: 99.8%;
