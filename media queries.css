@@ -42,7 +42,7 @@
         rgba(45, 173, 103, 0.16) 100%,
         rgba(45, 173, 103, 0.16) 100%
       ),
-      url(administration-articles-bank-261949.jpg);
+      url(background-landing.jpg);
     position: relative;
     width: 60.4%;
     height: 99.8%;
@@ -55,18 +55,22 @@
   }
 }
 
-@media screen and (max-width: 1366px) {
-  .sub_title_index{
-    left: 62%;
+@media screen and (max-width: 1517px) {
+  .back {
+    width: 57.4%;
+  }
+
+  .sub_title_index {
+    left: 60%;
     font-size: 34px;
   }
 
   .title_index{
-    left: 62%;
+    left: 60%;
   }
 
   .start_button {
-    left: 62%;
+    left: 60%;
   }
 }
 @media screen and (max-width: 1205px) {
