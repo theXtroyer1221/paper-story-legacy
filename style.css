@@ -309,6 +309,7 @@ a {
   border: 1px solid red;
   box-sizing: border-box;
 }
+
 .gallery:hover{
   border: 2px solid red;/*the hover may be removed*/
   box-sizing: border-box;
