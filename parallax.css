@@ -149,3 +149,19 @@ ul img {
   text-decoration: none;
   list-style-type: none;
 }
+
+.facebook:hover {
+  background: url("facebook_c.png");
+}
+.youtube:hover{
+  background: url("youtube_c.png")
+}
+.twitter:hover{
+  background: url("twitter_c.png")
+}
+.insta:hover{
+  background: url("insta_c.png")
+}
+.discord:hover{
+  background: url("discord_c.png")
+}
