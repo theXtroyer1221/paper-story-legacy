@@ -36,11 +36,11 @@
   .back {
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background: linear-gradient(
-        180deg,
-        rgba(41, 58, 196, 0.25) 0%,
-        rgba(45, 173, 103, 0.16) 100%,
-        rgba(45, 173, 103, 0.16) 100%
+        107deg,
+        rgba(41, 58, 196, 0.55) 0%,
+        rgba(45, 173, 103, 0.5634628851540616) 100%
       ),
       url(background-landing.jpg);
     position: relative;
@@ -135,20 +135,40 @@
 }
 
 @media screen and (max-width: 780px) {
+  html {
+    min-height: 100%;
+  }
+
+  #body_index {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: linear-gradient(
+        107deg,
+        rgba(41, 58, 196, 0.55) 0%,
+        rgba(45, 173, 103, 0.5634628851540616) 100%
+      ),
+      url(background-landing.jpg);
+  }
+
   .back {
-    width: 141%;
-    height: 100
+    display: none;
   }
 
   .title_index {
-    position: absolute;
     text-align: center !important;
+    position: absolute;
+    color: white;
   }
   .sub_title_index {
     text-align: center !important;
+    position: absolute;
+    color: white;
   }
   .start_button {
     text-align: center;
+    position: absolute;
+    color: white;
   }
 
   p {
@@ -168,6 +188,15 @@
 
   .quote_title {
     font-size: 20px;
+  }
+
+  .main_content_index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    border: green 5px;
   }
 }
 
