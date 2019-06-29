@@ -198,11 +198,25 @@
     width: 50%;
     border: green 5px;
   }
+
+  .spotify {
+    width: 100%;  
+  }
+
+  .map {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 689px) {
   footer li {
     flex: 1 1 100%;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .jumpsuit {
+    width: 182px;
   }
 }
 

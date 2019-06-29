@@ -225,46 +225,6 @@ a {
   text-decoration: none;
 }
 
-.insta_icn {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  left: 276px;
-  top: 979px;
-
-  background: url(iconmonstr-instagram-11-240.png);
-}
-
-.yout_icn {
-  position: relative;
-  width: 75px;
-  height: 75px;
-  left: 368px;
-  top: 979px;
-
-  background: url(youtube.png);
-}
-
-.face_icn {
-  position: relative;
-  width: 75px;
-  height: 75px;
-  left: 92px;
-  top: 979px;
-
-  background: url(iconmonstr-facebook-4-240.png);
-}
-
-.disc_icn {
-  position: relative;
-  width: 75px;
-  height: 75px;
-  left: 460px;
-  top: 979px;
-
-  background: url(iconmonstr-discord-1-240.png);
-}
-
 .map {
   display: block;
   margin-left: auto;
