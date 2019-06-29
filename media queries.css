@@ -171,14 +171,6 @@
     color: white;
   }
 
-  p {
-    text-align: center !important;
-  }
-
-  h1 {
-    text-align: center !important;
-  }
-
   .center1 {
     line-height: 200px;
     height: 200px;
@@ -200,7 +192,7 @@
   }
 
   .spotify {
-    width: 100%;  
+    width: 100%;
   }
 
   .map {
