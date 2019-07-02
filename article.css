@@ -87,6 +87,10 @@ article {
   background-image: #434343;
 }
 
+#article-author {
+  margin-bottom: 50px;
+}
+
 .author {
   display: flex;
 }

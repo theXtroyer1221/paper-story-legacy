@@ -217,4 +217,16 @@
      display: block;
   }
 
+  .author-name {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  .author-name {
+    font-size: 15px;
+  }
+
 }
