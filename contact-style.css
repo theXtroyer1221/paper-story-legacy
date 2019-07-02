@@ -5,7 +5,8 @@
 }
 
 .first_title_contact {
-  width: 1280px;
+  display: inline-block;
+  width: 1205px;
   margin-top: 147px;
   margin-bottom: 0;
   margin-right: 0px;
@@ -16,13 +17,14 @@
   font-weight: 700;
   font-size: 108px;
   line-height: 162px;
-  display: flex;
   align-items: center;
 
   color: #2f303a;
 }
 
 .first_sub_contact {
+  display: inline-block;
+  width: 1205px;
   margin: 0;
   margin-left: 45px;
 
@@ -31,13 +33,14 @@
   font-weight: normal;
   font-size: 48px;
   line-height: 72px;
-  display: flex;
   align-items: center;
 
   color: #2f303a;
 }
 
 .sec_title_contact {
+  display: inline-block;
+  width: 1205px;
   margin: 0;
   margin-left: 45px;
   font-family: "Poppins", sans-serif;
@@ -50,6 +53,8 @@
 }
 
 .sec_sub_contact {
+  display: inline-block;
+  width: 1205px;
   margin: 0;
   margin-left: 45px;
   font-family: Poppins;
@@ -57,14 +62,20 @@
   font-weight: normal;
   font-size: 31px;
   line-height: 46px;
-  display: flex;
   align-items: center;
 
   color: #2f303a;
 }
 
-.background_contact {
+.contact_background {
+  display: inline-block;
   background: url(businessmen-businesspeople-businesswomen-1249158.jpg);
-  display: block;
-  margin-left: auto;
+  width: 500px;
+  height: 880px;
+  margin: 0;
+  object-fit: cover;
+}
+
+.main_contact {
+  display: inline;
 }
