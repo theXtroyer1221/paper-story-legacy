@@ -234,7 +234,7 @@ a {
 
 .title_abt {
   position: relative;
-  left: 41.33%;
+
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -265,7 +265,6 @@ a {
 
 .gallery {
   display: inline-block;
-  width: 1050px;
   border: 10px solid #2dad67;
   box-sizing: border-box;
 }
@@ -277,17 +276,17 @@ a {
 
 .art {
    padding: 0 !important;
-
+   height: 737px;
 }
 
 .article_gallery {
   display: flex;
   width: 100%;
+  height: 100%;
 }
 
 .article-thumbnail {
   width: 47%;
-  height: 100%;
 }
 
 .article_text {
