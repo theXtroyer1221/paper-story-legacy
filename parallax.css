@@ -33,58 +33,9 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
-#first {
-  margin-top: 0px;
-  padding: 0;
-}
-
-.quote_title {
-  text-align: center;
-  margin: 0;
-  background-color: #2f303a;
-}
-
-.quote_img {
-  position: relative;
-  top: 26px;
-  display: block;
-  margin-left: auto;
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-}
-
-.subtitle_quote {
-  text-align: center;
-  margin: 0;
-  background-color: #2f303a;
-}
-
-.quote {
-  margin-top: -53px;
-  position: relative;
-  top: -150px;
-}
-
 .trends {
   width: 100%;
   height: 410px;
-}
-
-.spotify {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.document {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 500px;
-  outline: none;
 }
 
 #last {
@@ -141,35 +92,55 @@ footer span {
   margin: 0 5px;
 }
 
-ul img {
-  margin: 0 10px;
-}
-
 #social-media {
   text-decoration: none;
   list-style-type: none;
 }
 
-.facebook {
-  background: url('facebook.png')
+.fa-facebook {
+  color: #9e9e9e;
+  transition: color 0.3s ease-out;
 }
 
-.facebook:hover {
-  background: url("facebook_c.png");
+.fa-facebook:hover {
+  color: #3C5898;
 }
 
-.youtube:hover{
-  background: url("youtube_c.png");
+.fa-twitter {
+  color: #9e9e9e;
+  transition: color 0.3s ease-out;
 }
 
-.twitter:hover{
-  background: url("twitter_c.png");
+.fa-twitter:hover {
+  color: #38A1F3;
 }
 
-.insta:hover{
-  background: url("insta_c.png");
+.fa-instagram {
+  color: #9e9e9e;
+  background: white;
+  transition: all 0.3s ease-out;
 }
 
-.discord:hover{
-  background: url("discord_c.png");
+.fa-instagram:hover {
+background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.fa-youtube {
+  color: #9e9e9e;
+  transition: all 0.3s ease-out;
+}
+
+.fa-youtube:hover {
+  color: #FF0000;
+}
+
+.fa-discord {
+  color: #9E9E9E;
+  transition: all 0.3s ease-out;
+}
+
+.fa-discord:hover {
+  color: #738ADB;
 }
