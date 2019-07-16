@@ -233,13 +233,28 @@ a {
   width: 50%;
 }
 
+.abt-text {
+  margin-left: 30px;
+}
+
 .title_abt {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 103px;
-  display: flex;
+  color: #2f303a;
+  height: 114px;
+}
+
+.sub_title_abt {
+  width: 1085px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
   align-items: center;
+  display: inline-block;
+
   color: #2f303a;
 }
 
@@ -274,7 +289,7 @@ a {
 .quote {
   min-height: 50vh;
   width: 100%;
-  background: url(https://www.aussiespecialist.com/content/asp/en/sales-resources/image-and-video-galleries/_jcr_content/mainParsys/hero/image.adapt.1663.medium.jpg);
+  background: url(https://cdn.000webhost.com/000webhost/weblist-placeholder-top.svg);
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: cover;
@@ -301,4 +316,14 @@ a {
 .card-img-top {
   height: 200px;
   object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #2dad67 !important;
+  border-color: #2dad67 !important;
+}
+
+.btn-primary:hover {
+  background-color: #269458 !important;
+  border-color: #269458;
 }
